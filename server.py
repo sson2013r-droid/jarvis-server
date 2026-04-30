@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 @app.route("/", methods=["GET"])
 def home():
