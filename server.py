@@ -28,7 +28,7 @@ def ask():
         }
 
         payload = {
-            "model": "llama3-8b-8192",
+           "model": "llama3-8b-8192-preview",
             "messages": [
                 {
                     "role": "system",
