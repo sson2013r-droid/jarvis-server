@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # ---------- GROQ CONFIG ----------
-GROQ_API_KEY = "YOUR_GROQ_API_KEY"
+GROQ_API_KEY = "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"
 
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 
